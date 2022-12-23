@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+  background-color: #e0e5f0;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.user_icon{
+  color: white;
+  font-size: large;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.text{
+  background-color: white;
+  padding: 12px;
+  font-size: large;
+  border-radius: 15px;
+  width: fit-content;
+  max-width: 80vw;
+  border-top-left-radius: 0px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.body{
+  width: fit-content;
+  position: relative;
+  top:-30px;
+  left:55px;
+}
+
+.header{
+  position: relative;
+  top: -35px;
+  left: 55px;
+  color: #555555;
+  width: fit-content;
+}
+
+.like{
+  width: fit-content;
+  position: absolute;
+  right:-50px;
+  top:13px
+}
+
+.like_count{
+  position: relative;
+  top:-4px;
+  right: -2px;
+}
+
+.time{
+  font-size: small;
+  margin-left: 8px;
+}
+
+.input_area{
+  position: relative;
+}
+
+#textbox{
+  width: 80vw;
+  height: 40px;
+  border-radius: 20px;
+  font-size: large;
+  padding-left: 25px;
+  border: 2px solid gray;
+  color: gray;
+  position: absolute;
+  top:0px;
+  left:165px
+}
+
+#textbox:focus{
+  outline: none;
+}
+
+img{
+  cursor: pointer;
+}
+
+.send_button{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+.emoji_button{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 4px;
+  left: 50px;
+}
+
+.mention_button{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 3px;
+  left: 105px;
+}
+
+.message_list{
+  overflow: scroll;
+  padding: 30px 50px 10px 50px;
+  height: 83vh;
+}
+
+.EmojiPickerReact{
+  position: absolute;
+  top:-460px;
+  left: 60px;
+  z-index: 2;
+}
+
+.mention{
+  border: 1px solid black;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  font-size: large;
+  background-color: white;
+  width: 130px;
+  height: 150px;
+  overflow: scroll;
+  position: absolute;
+  top: -160px;
+  left: 150px;
+  z-index:1;
+}
+
+.mention_name{
+  margin: 10px;
+  cursor: pointer;
+  color: darkblue;
+}
+
+
